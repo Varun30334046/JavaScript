@@ -133,3 +133,10 @@ console.log("Login Status  : " + loginStatus);
 console.log("Company       : " + companyInfo.companyName);
 console.log("Location      : " + companyInfo.location);
 console.log("==============================");
+
+// Hii Naveen,
+// I have completed the Bonus Task as well.
+// It has been uploaded to this GitHub repository.
+// Kindly review the Bonus Task too.
+// Thank you.
+
