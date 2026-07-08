@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Search App</title>
+    <link rel="stylesheet" href="ChallengeTask.css">
+</head>
+<body>
+
+    <h1>Fake Store Products</h1>
+
+    <input
+        type="text"
+        id="search"
+        placeholder="Search Product">
+
+    <select id="category">
+
+        <option value="all">All Categories</option>
+        <option value="electronics">Electronics</option>
+        <option value="jewelery">Jewellery</option>
+        <option value="men's clothing">Men's Clothing</option>
+        <option value="women's clothing">Women's Clothing</option>
+
+    </select>
+
+    <select id="price">
+
+        <option value="all">All Prices</option>
+        <option value="50">Below $50</option>
+        <option value="100">Below $100</option>
+        <option value="200">Below $200</option>
+
+    </select>
+
+    <h2 id="count"></h2>
+
+    <div id="products"></div>
+
+    <script src="ChallengeTask.js"></script>
+
+</body>
+</html>
